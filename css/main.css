@@ -132,15 +132,15 @@ header nav ul li{
 /*---- Mobile-Home page main ----*/
 
 /*-------------- Hero area ---------------*/
-.hero-area{
+figure .hero-area{
 
 }
 
-.hero-area h2{
+figure .hero-area h2{
 
 }
 
-.hero-area img{
+figure .hero-area img{
 
 }
 
@@ -209,6 +209,25 @@ article .feature-items-description{
 
 }
 
+.reviews .review-header{
+
+}
+
+.reviews .review-photo{
+
+}
+
+.reviews .review-content{
+
+}
+
+.reviews .review-content h4{
+
+}
+
+.reviews .review-content p{
+
+}
 
 /*---- Mobile-About page main ----*/
 

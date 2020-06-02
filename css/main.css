@@ -279,7 +279,7 @@ article .feature-items-description{
 }
 
 .contact .content-wrapper address div h3{
-  
+
 }
 
 .contact .content-wrapper address div p{
@@ -287,7 +287,29 @@ article .feature-items-description{
 }
 
 /*---- Mobile-FAQ page main ----*/
+.faq-section{
 
+}
+
+.faq-section .content-wrapper{
+
+}
+
+.faq-section .content-wrapper h2{
+
+}
+
+.faq-section .content-wrapper .faq-content{
+
+}
+
+.faq-section .content-wrapper .faq-content h3{
+
+}
+
+.faq-section .content-wrapper .faq-content p{
+
+}
 
 /*---- Footer Styles ----*/
 footer{

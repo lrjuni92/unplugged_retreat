@@ -98,6 +98,96 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*---- Base Header-Footer styles ----*/
+header, footer{
+
+}
+
+/*---- Header Styles ----*/
+
+header{
+
+}
+
+header .content-wrapper{
+
+}
+
+header .header-divider{
+
+}
+
+header nav{
+
+}
+
+header nav ul{
+
+}
+
+header nav ul li{
+
+}
+
+/*---- Mobile-Home page main ----*/
+
+/*-------------- Hero area ---------------*/
+
+/*------------- Newsletter area ----------------*/
+
+/*------------ Highlights of Retreat --------------*/
+
+/*------------ Previous Retreats -----------------*/
+
+
+/*---- Mobile-About page main ----*/
+
+/*----------- Mission area ---------------*/
+
+/*------------ Map area --------------*/
+
+/*------------ Contact information --------------*/
+
+
+/*---- Mobile-FAQ page main ----*/
+
+
+/*---- Footer Styles ----*/
+footer{
+
+}
+
+footer .content-wrapper{
+
+}
+
+footer .footer-content{
+
+}
+
+/*--------- Contact info ----------*/
+footer address .contact{
+
+}
+
+/*-------- Social Media info ---------*/
+footer .social{
+
+}
+
+footer .social-icons{
+
+}
+
+/*-------- Copyright ---------*/
+footer .copyright{
+
+}
+
+/*---- Tablet Styles ----*/
+
+/*----Desktop Styles ----*/
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +352,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

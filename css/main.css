@@ -100,7 +100,9 @@ textarea {
 
 /*---- Base Header-Footer styles ----*/
 header, footer{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*---- Header Styles ----*/
@@ -146,7 +148,9 @@ figure .hero-area img{
 
 /*------------- Newsletter area ----------------*/
 aside{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 aside .content-wrapper{
@@ -179,7 +183,9 @@ aside .form form{
 
 /*------------ Highlights of Retreat --------------*/
 .features{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features .content-wrapper{
@@ -202,7 +208,9 @@ article .feature-items-description{
 
 /*------------ Previous Retreats -----------------*/
 .reviews{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews .content-wrapper{
@@ -233,7 +241,9 @@ article .feature-items-description{
 
 /*----------- Mission area ---------------*/
 .mission{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission .content-wrapper{
@@ -259,7 +269,9 @@ article .feature-items-description{
 
 /*------------ Contact information --------------*/
 .contact{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact .content-wrapper{
@@ -288,7 +300,9 @@ article .feature-items-description{
 
 /*---- Mobile-FAQ page main ----*/
 .faq-section{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-section .content-wrapper{

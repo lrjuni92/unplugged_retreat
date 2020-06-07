@@ -116,6 +116,7 @@ header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header .header-divider{
@@ -126,12 +127,14 @@ header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul li{
@@ -145,6 +148,7 @@ figure .hero-area{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 figure .hero-area h2{
@@ -160,10 +164,14 @@ aside{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .form-description{
@@ -195,10 +203,14 @@ aside .form form{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 article{
@@ -222,12 +234,14 @@ article .feature-items-description{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews .review-header{
@@ -257,12 +271,14 @@ article .feature-items-description{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper .mission-content{
@@ -283,35 +299,37 @@ article .feature-items-description{
 }
 
 /*------------ Contact information --------------*/
-.contact{
+.contact-section{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.contact .content-wrapper{
+.contact-section .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.contact .content-wrapper h2{
-
-}
-
-.contact .content-wrapper address{
+.contact-section .content-wrapper h2{
 
 }
 
-.contact .content-wrapper address div{
+.contact-section .content-wrapper address{
 
 }
 
-.contact .content-wrapper address div h3{
+.contact-section .content-wrapper address div{
 
 }
 
-.contact .content-wrapper address div p{
+.contact-section .content-wrapper address div h3{
+
+}
+
+.contact-section .content-wrapper address div p{
 
 }
 
@@ -326,6 +344,7 @@ article .feature-items-description{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq-section .content-wrapper h2{
@@ -350,7 +369,10 @@ footer{
 }
 
 footer .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 footer .footer-content{
@@ -373,6 +395,7 @@ footer .social-icons{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row-wrap;
 }
 
 /*-------- Copyright ---------*/

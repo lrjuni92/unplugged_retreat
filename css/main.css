@@ -103,6 +103,7 @@ header, footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /*---- Header Styles ----*/
@@ -112,7 +113,9 @@ header{
 }
 
 header .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header .header-divider{
@@ -120,22 +123,28 @@ header .header-divider{
 }
 
 header nav{
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header nav ul{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul li{
-
+  list-style: none;
 }
 
 /*---- Mobile-Home page main ----*/
 
 /*-------------- Hero area ---------------*/
 figure .hero-area{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 figure .hero-area h2{
@@ -201,7 +210,9 @@ article .fontawesome-icon{
 }
 
 article .feature-items-description{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -214,7 +225,9 @@ article .feature-items-description{
 }
 
 .reviews .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews .review-header{
@@ -247,7 +260,9 @@ article .feature-items-description{
 }
 
 .mission .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission .content-wrapper .mission-content{
@@ -275,7 +290,9 @@ article .feature-items-description{
 }
 
 .contact .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact .content-wrapper h2{
@@ -306,7 +323,9 @@ article .feature-items-description{
 }
 
 .faq-section .content-wrapper{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-section .content-wrapper h2{
@@ -345,11 +364,15 @@ footer address .contact{
 
 /*-------- Social Media info ---------*/
 footer .social{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .social-icons{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-------- Copyright ---------*/

@@ -120,7 +120,7 @@ header .content-wrapper{
 }
 
 header .header-divider{
-
+  width: 100%;
 }
 
 header nav{
@@ -128,6 +128,7 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul{
@@ -135,9 +136,11 @@ header nav ul{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 44%;
 }
 
 header nav ul li{
+  margin: 0 30px;
   list-style: none;
 }
 
@@ -172,6 +175,7 @@ aside .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 aside .form-description{
@@ -211,17 +215,18 @@ aside .form form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
-article{
+.features article{
+  width: 55%;
+}
+
+.features article .fontawesome-icon{
 
 }
 
-article .fontawesome-icon{
-
-}
-
-article .feature-items-description{
+.features article .feature-items-description{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,25 +247,26 @@ article .feature-items-description{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
-.reviews .review-header{
-
+.reviews .review-header h3{
+  width: 90%;
 }
 
 .reviews .review-photo{
 
 }
 
-.reviews .review-content{
+.reviews article .review-content{
 
 }
 
-.reviews .review-content h4{
+.reviews article .review-content h4{
 
 }
 
-.reviews .review-content p{
+.reviews article .review-content p{
 
 }
 
@@ -279,6 +285,7 @@ article .feature-items-description{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .mission .content-wrapper .mission-content{
@@ -311,6 +318,7 @@ article .feature-items-description{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .contact-section .content-wrapper h2{
@@ -345,6 +353,7 @@ article .feature-items-description{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .faq-section .content-wrapper h2{
@@ -373,6 +382,8 @@ footer .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0;
+  width: 55%;
 }
 
 footer .footer-content{

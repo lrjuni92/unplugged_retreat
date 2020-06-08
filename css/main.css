@@ -109,7 +109,7 @@ header, footer{
 /*---- Header Styles ----*/
 
 header{
-
+  padding: 15px 0;
 }
 
 header .content-wrapper{
@@ -117,6 +117,7 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header .header-divider{
@@ -140,7 +141,7 @@ header nav ul{
 }
 
 header nav ul li{
-  margin: 0 30px;
+  padding: 17px 30px;
   list-style: none;
 }
 
@@ -155,7 +156,7 @@ figure .hero-area{
 }
 
 figure .hero-area h2{
-
+  padding: 50px 0;
 }
 
 figure .hero-area img{
@@ -179,7 +180,7 @@ aside .content-wrapper{
 }
 
 aside .form-description{
-
+  padding: 30px 0;
 }
 
 aside .form-description h3{
@@ -191,7 +192,7 @@ aside .form-description p{
 }
 
 aside .form{
-
+  padding: 35px 0;
 }
 
 aside .form h3{
@@ -208,6 +209,7 @@ aside .form form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 55px 0;
 }
 
 .features .content-wrapper{
@@ -219,7 +221,12 @@ aside .form form{
 }
 
 .features article{
+  padding: 52px 0;
   width: 55%;
+}
+
+.features p{
+  margin: 0;
 }
 
 .features article .fontawesome-icon{
@@ -240,6 +247,7 @@ aside .form form{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 .reviews .content-wrapper{
@@ -374,7 +382,7 @@ aside .form form{
 
 /*---- Footer Styles ----*/
 footer{
-
+  padding: 48px 0;
 }
 
 footer .content-wrapper{
@@ -390,9 +398,13 @@ footer .footer-content{
 
 }
 
+footer p{
+  margin: 0;
+}
+
 /*--------- Contact info ----------*/
 footer address .contact{
-
+  padding: 45px 0;
 }
 
 /*-------- Social Media info ---------*/
@@ -407,11 +419,13 @@ footer .social-icons{
   justify-content: center;
   align-items: center;
   flex-flow: row-wrap;
+  padding: 10px 20px;
 }
 
 /*-------- Copyright ---------*/
 footer .copyright{
-
+  margin: auto;
+  width: 55%;
 }
 
 /*---- Tablet Styles ----*/

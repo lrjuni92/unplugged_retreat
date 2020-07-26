@@ -338,6 +338,7 @@ aside .form form{
 .contact-section .content-wrapper h2{
   margin: 0;
   padding: 0 0 15px 0;
+  width: 90%;
 }
 
 .contact-section .content-wrapper address{
@@ -425,6 +426,10 @@ footer .social{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social h3{
+  
 }
 
 footer .social-icons{
@@ -532,12 +537,12 @@ footer .copyright{
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /*---- Tablet Styles ----*/
+/*---- Tablet Styles ----*/
 
 }
 
 @media only screen and (min-width: 1200px) {
-  /*----Desktop Styles ----*/
+/*---- Desktop Styles ----*/
 
 }
 

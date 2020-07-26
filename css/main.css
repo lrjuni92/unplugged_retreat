@@ -441,9 +441,6 @@ footer .copyright{
   width: 55%;
 }
 
-/*---- Tablet Styles ----*/
-
-/*----Desktop Styles ----*/
 
 /* ==========================================================================
    Helper classes
@@ -534,15 +531,14 @@ footer .copyright{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*---- Tablet Styles ----*/
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /*----Desktop Styles ----*/
+
 }
 
 /* ==========================================================================

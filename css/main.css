@@ -301,20 +301,22 @@ aside .form form{
 }
 
 .mission .content-wrapper .mission-content{
-
+  width: 90%;
 }
 
 .mission .content-wrapper .mission-content h1{
-
+  margin: 0;
+  padding: 20px 0;
 }
 
 .mission .content-wrapper .mission-content p{
-
+  margin: 0;
+  padding: 20px 0;
 }
 
 /*------------ Map area --------------*/
 .map{
-
+  width: 100%;
 }
 
 /*------------ Contact information --------------*/
@@ -334,23 +336,28 @@ aside .form form{
 }
 
 .contact-section .content-wrapper h2{
-
+  margin: 0;
+  padding: 0 0 15px 0;
 }
 
 .contact-section .content-wrapper address{
-
+  margin: 0;
+  padding: 0 0 20px 0;
 }
 
 .contact-section .content-wrapper address div{
-
+  margin: 0;
+  padding: 0 0 20px 0;
 }
 
 .contact-section .content-wrapper address div h3{
-
+  margin: 0;
+  padding: 0 0 15px 0;
 }
 
 .contact-section .content-wrapper address div p{
-
+  margin: 0;
+  padding: 0 0 15px 0;
 }
 
 /*---- Mobile-FAQ page main ----*/
@@ -373,7 +380,9 @@ aside .form form{
 }
 
 .faq-section .content-wrapper .faq-content{
-
+  margin: 0;
+  padding: 0 0 50px 0;
+  width: 90%;
 }
 
 .faq-section .content-wrapper .faq-content h3{

@@ -141,7 +141,7 @@ header nav ul{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 44%;
+  width: 100%;
 }
 
 header nav ul li{
@@ -263,23 +263,23 @@ aside .form form{
 }
 
 .reviews .review-header h3{
-  width: 90%;
+  width: 100%;
 }
 
 .reviews .review-photo{
-
+  width: 100%;
 }
 
 .reviews article .review-content{
-
+  width: 90%;
 }
 
 .reviews article .review-content h4{
-
+  width: 100%;
 }
 
 .reviews article .review-content p{
-
+  width: 100%;
 }
 
 /*---- Mobile-About page main ----*/

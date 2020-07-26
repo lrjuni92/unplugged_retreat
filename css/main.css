@@ -120,6 +120,10 @@ header .content-wrapper{
   margin: 0;
 }
 
+header img{
+  width: ;
+}
+
 header .header-divider{
   width: 100%;
 }

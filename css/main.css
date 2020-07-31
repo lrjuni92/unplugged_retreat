@@ -429,7 +429,7 @@ footer .social{
 }
 
 footer .social h3{
-  
+
 }
 
 footer .social-icons{
@@ -538,7 +538,84 @@ footer .copyright{
 
 @media only screen and (min-width: 768px) {
 /*---- Tablet Styles ----*/
+  header, footer{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 85%;
+  }
 
+/*----- Tablet Header styles -----*/
+  header .content-wrapper{
+    justify-content: ;
+  }
+
+  header .header-divider{
+    width: 38%;
+  }
+
+  header nav{
+    width: 18%;
+  }
+
+  header nav ul{
+    justify-content: ;
+
+  }
+
+/*---- Tablet Newsletter Styles ----*/
+
+  aside .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+  aside .form-description{
+    margin: 0;
+    padding: ;
+    width: 33%;
+  }
+
+  aside .form{
+    margin:0;
+    padding ;
+    width: 38%;
+  }
+
+/*---- Tablet Highlights Styles ----*/
+  .features article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: ;
+    padding: 12px 60px;
+    width: 27%;
+}
+
+/*---- Tablet Review Styles ----*/
+  .reviews article{
+    display: flex;
+    justify-content: ;
+  }
+
+/*---- Tablet Footer Styles ----*/
+  footer .content-wrapper{
+    display: flex;
+    justify-content: ;
+    align-items: ;
+  }
+
+/*---- Tablet About Page Styles ----*/
+
+
+/*---- Tablet FAQ Page Styles ----*/
+  .faq-content{
+    flex-basis: ;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
